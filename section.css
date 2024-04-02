@@ -937,6 +937,7 @@ section.gallery-page .pagination ul li a:hover {
 /* Meeting item column */
 .templatemo-item-col {
 	width: 31%;
+  height:auto;
 }
 
 @media (max-width: 992px) {
