@@ -296,7 +296,7 @@
 
       function refreshDiv(){
           var divContent=document.getElementById("refresh");
-          divContent.innerHTML=divContent.innerHTML;
+          document.getElementById("refresh")=divContent.innerHTML;
       }
 
       window.setInterval(refreshDiv,1000);
