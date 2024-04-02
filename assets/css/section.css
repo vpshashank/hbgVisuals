@@ -937,15 +937,16 @@ section.gallery-page .pagination ul li a:hover {
 /* Meeting item column */
 .templatemo-item-col {
 	width: 31%;
+  height:auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 	.templatemo-item-col {
 		width: 45%;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 	.templatemo-item-col {
 		width: 100%;
 	}
@@ -1021,7 +1022,7 @@ RESPONSIVE
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 
   .main-banner .caption {
     top: 60%;
@@ -1069,7 +1070,7 @@ RESPONSIVE
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 
   .sub-header .left-content p {
     display: none;
