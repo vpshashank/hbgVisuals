@@ -28,7 +28,7 @@
 
   <!--*********************************************** HEADER ***********************************************-->
   <header class="header-area header-sticky">
-      <div class="container" id="refresh">
+      <div class="container">
           <div class="row">
               <div class="col-12">
                   <nav class="main-nav">
@@ -295,9 +295,10 @@
       });
 
       function refreshDiv(){
-          var divContent=document.getElementById("refresh");
-          document.getElementById("refresh")="";
-          document.getElementById("refresh")=divContent.innerHTML;
+          var divContent=document.getElementById("refresh").innerHTML ;
+          document.getElementById("refresh").innerHTML="";
+          document.getElementById("refresh").innerHTML=divContent;
+          
       }
 
       window.setInterval(refreshDiv,1000);
