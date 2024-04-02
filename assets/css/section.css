@@ -835,6 +835,7 @@ section.gallery-page .pagination ul li a:hover {
 
 .meeting-single-item .thumbRounded {
   position: relative;
+  height: 600px ;
 }
 
 .meeting-single-item .thumbRounded img {
